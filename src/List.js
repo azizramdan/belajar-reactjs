@@ -4,9 +4,10 @@ const List = () => {
   const fruits = [
     'apel', 'pisang', 'duku', 'durian', 'rambutan'
   ]
-  const displayFruits = fruits.map((fruit, index) => <li key={index}>{fruit}</li>)
 
-  return <ul>{displayFruits}</ul>
+  return <ul>
+    {fruits.length > 0 && fruits.map(fruit => <li key={fruit}>{fruit}</li>)}
+    </ul>
 }
 
 export default List
