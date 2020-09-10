@@ -1,7 +1,5 @@
 import React from 'react'
 
-function Hello() {
-  return <h1>Hello World dengan CRA</h1>
-}
+const Hello = ({name, greeting}) => <h1>Hello {name} dengan CRA, Selamat {greeting}</h1>
 
 export default Hello
