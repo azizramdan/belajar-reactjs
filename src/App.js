@@ -3,9 +3,11 @@ import './App.css';
 import Event from './Event';
 
 function App() {
+  const onClick = () => window.alert('button di klik')
+
   return (
     <div className="App">
-      <Event />
+      <Event text='klik aing' onCustomClick={onClick} />
     </div>
   );
 }
