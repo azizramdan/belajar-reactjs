@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ControlledForm from './ControlledForm';
+import FormInput from './FormInput';
 
 function App() {
   return (
     <div className="App">
-      <ControlledForm />
+      <FormInput />
     </div>
   );
 }
