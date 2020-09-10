@@ -6,7 +6,7 @@ import Article from './Article';
 function App() {
   return (
     <div className="App">
-      <Article />
+      <Article userLogin='Sudah login' />
     </div>
   );
 }
