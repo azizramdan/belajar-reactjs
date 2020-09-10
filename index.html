@@ -17,12 +17,19 @@
     <div id="root"></div>
 
     <script type="text/babel">
+        class H2 extends React.Component {
+            render() {
+                return <h2>Header 2</h2>
+            }
+        }
+
         const nama = 'aziz'
         const tick = () => {
             const element = (
                 <div>
                     <h1>Hello Word { 1 + 3 } { nama }</h1>
                     <br />
+                    <H2 />
                     <p style={{ color: 'red' }}>paragraf dengan style</p>
                     <div>sekarang jam { new Date().toLocaleTimeString() }</div>
                     <div className="text-blue">element dengan class</div>
