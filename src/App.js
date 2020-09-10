@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Table from './Table';
+import Event from './Event';
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <Event />
     </div>
   );
 }
